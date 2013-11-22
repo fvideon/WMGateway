@@ -1,0 +1,26 @@
+[
+	uuid(2FACBFB3-0443-4a7d-B3F7-4D4D92B4B8B1),
+	version(1.0),
+	helpstring("Managed SampleGrabber Interfaces"),
+	helpcontext(00000000)
+]
+library SampleGrabberInterop
+{
+
+  import "unknwn.idl";
+  import "objidl.idl";	// for IPersist (IFilter's root)
+
+  #include "devenum.idl"
+
+
+  //#include "RtpSource.idl"
+  //#include "RtpSink.idl"
+  
+  #include "axcore.idl"
+  #include "axextend.idl"
+  //#include "vmr9.idl"
+  //#include "MDShowExtendedInterfaces.idl"
+  //#include "MDShowExtendedClasses.idl"
+  #include "SampleGrabber.idl"
+
+}

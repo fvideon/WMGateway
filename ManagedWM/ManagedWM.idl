@@ -1,0 +1,10 @@
+[
+	uuid(486C7CBD-6FE9-4c11-86D2-22ED4A6445BD),
+	version(1.0),
+	helpstring("Managed Windows Media Interfaces"),
+	helpcontext(00000000)
+]
+library ManagedWM
+{
+  #include "wmsdkidl.idl"
+}
